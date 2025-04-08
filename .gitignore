@@ -3,7 +3,6 @@ infra/managed-app/artifacts/graphrag/
 openapi.json
 
 # ignore vscode config files
-.vscode/
 
 # ignore all logfiles
 logs
@@ -119,7 +118,6 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
 .venv
 env/
 venv/
@@ -171,3 +169,5 @@ main.parameters.json
 **/Chart.lock
 
 .history
+config.bat
+node_modules
